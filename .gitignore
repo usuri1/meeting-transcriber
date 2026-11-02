@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.env
+.env.*
+
+# Personal audio and generated lecture notes stay local.
+recordings/
+transcripts/
+summaries/
+trash/
+keep_audio/
+*.wav
+*.log
+*.tmp
+
+# Original one-off experiments with machine-specific paths.
+test_recording.py
+transcribe_test.py
